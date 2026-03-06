@@ -24,7 +24,7 @@ _processor = None
 _model_lock = threading.Lock()
 _tmp_dir = tempfile.mkdtemp(prefix="livelm_")
 
-DEFAULT_MODEL = "mlx-community/Qwen2.5-VL-3B-Instruct-4bit"
+DEFAULT_MODEL = "mlx-community/Qwen2.5-VL-7B-Instruct-4bit"
 
 
 def _ensure_model(model_path: str):
