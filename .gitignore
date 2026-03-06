@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+
+# Gradio
+.gradio/
+flagged/
+
+# OS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
