@@ -9,6 +9,9 @@ wheels/
 # Virtual environments
 .venv/
 
+# Models (too large for git)
+models/
+
 # Gradio
 .gradio/
 flagged/
